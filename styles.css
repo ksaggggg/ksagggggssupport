@@ -1,0 +1,81 @@
+body {
+    font-family: 'Madimi One', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #aaa;
+    margin: 0;
+    padding: 1.5em;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 15px;
+}
+
+header h1 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+header h2 {
+    font-size: 1.5em;
+    color: #666;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 180px; 
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 20px;
+    transition: transform .2s; 
+}
+
+.card:hover {
+    transform: scale(1.1); 
+}
+
+.card img {
+    width: 50px;
+    height: 50px;
+}
+
+.card h3 {
+    margin-top: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0px 0;
+    margin: 0px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0; 
+}
